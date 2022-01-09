@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="Qwerty@123"/>
+    <parameter name="username" value="tealife@yopmail.com"/>
+    <classes>
+      <class name="testcases.AddInvoice">
+        <methods>
+          <include name="addingInvoice"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcases.AddInvoice -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
